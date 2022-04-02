@@ -5,7 +5,8 @@
 
 ### The challenge
 
-Recriar uma landpage de acordo com design disponibilizado no Figma
+Recriar uma landpage de acordo com design disponibilizado no Figma:
+- [Figma Layout Model](https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A9878)
 
 
 ## My proccess / Built with :
