@@ -276,8 +276,6 @@ section.main-depoimentos{
 }
 /* FIM Section DEPOIMENTOS @@@---*/
 
-/* ----- FOOTER ----*/
-
 footer{
     display: flex;
     flex-direction: column;
@@ -332,22 +330,35 @@ footer span{
 .attribution a:hover{
     text-decoration: underline;
 }
-/* --- MEDIA QUERIES TESTE */
+
+/* --- MEDIA QUERIES TESTE ------- */
 
 @media (max-width: 576px){
 
+    .topo-container{
+        width: auto;
+    }
+
+    .spacing-div{
+        display: none;
+    }
+
+    .logo-topo{
+        margin-left: 4rem;
+    }
+
     .topo-itens{
-        width: 528px;
+        width: auto;
         display: flex;
         flex-direction: row;
-        gap: 1.5rem;
+        gap: 3.5rem;
     }
 
     .navbar ul{
         display: flex;
         flex-direction: column;
         gap: 0px;
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
 
     .navbar li a{
@@ -359,38 +370,49 @@ footer span{
         padding: 6px 12px 6px;
     }
 
+    section.main-cabeçalho{
+        width: 450px;
+    }
+
     .inner-cabeçalho{
-        width: 528px;
-        margin-top: 1rem;
+        margin-top: 2rem;
+        width: auto;
     }
 
     .inner-cabeçalho .cabeç-p2{
-        width: 475px;
+        width: 365px;
         margin: 0 auto;
-        font-size: 16px;
+        font-size: 15px;
     }
 
+    section.main-metrics{
+        width: 475px;
+    }    
+
     .metrics-container{
+        width: auto;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin-left: 5rem;
-        width: 100vw;
     }
 
     .metrics-boxes {
-        width: 500px;
-        margin-right: 3.2rem;
-        padding-left: 10px;
+        width: auto;
         background-color: rgba(196, 25, 25, 0.03);
+        padding-left: .5rem;
+    }
+
+    section.main-vagas{
+        width: 450px;
+        margin-top: 28rem;
+        height: auto;
     }
 
     .vagas-outercontainer{
-        margin-top: 28rem;
+        width: auto;
     }
 
     .vagas-container{
-        width: 528px;
+        width: auto;
     }
 
     .vagas-img img{
@@ -406,17 +428,23 @@ footer span{
         font-weight: 700;
     }
 
-    .vagas-uppertext h2, .vagas-uppertext p{
+    .vagas-uppertext h2{
+        text-align: center;
+    }
+
+    .vagas-uppertext p{
+        font-size: 20px;
+        width: 410px;
         text-align: center;
     }
 
     .vagas-abertas-container{
-        width: 574px;
+        width: auto;
     }
 
     .vagas-abertas-box_topo, .vagas-abertas-box_baixo{
         padding: 0;
-        width: 520px;
+        width: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -428,12 +456,23 @@ footer span{
     }
 
     .vagas-abertas-jobpost{
-        width: 470px;
+        width: auto;
     }
 
     .vagas-abertas-jobpost h4{
         font-weight: 600;
         color: #8E2424;
+    }
+
+    section.main-depoimentos{
+        width: 448px;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .depoimentos-container{
+        width: 100%;
     }
 
     .depoimentos-container span:first-of-type{
@@ -452,7 +491,22 @@ footer span{
         font-size: 15px;
     }
     
-    
+    footer{
+        width: 460px;
+    }
+
+    footer h2{
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    footer p{
+        text-align: center;
+    }
+
+    footer input{
+        width: 300px;
+    }
 
 }    
 
