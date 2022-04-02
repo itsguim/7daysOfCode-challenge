@@ -28,7 +28,7 @@ Recriar uma landpage de acordo com design disponibilizado no Figma
 
 ## Considerations
 
-Acho que a minha maior dificuldade é quanto à responsabilidade para os diferentes tipos de tamanhos de tela, embora não tenha sido requisitado nesse desafio, quis treinar um pouco o  uso de media queries para me familiarizar, e ajustei o layoute para uma versão mobile (576px).
+Acho que a minha maior dificuldade é quanto à responsividade para os diferentes tipos de tamanhos de tela, embora não tenha sido solicitado nesse desafio, quis treinar um pouco o uso de media queries para me familiarizar, e ajustei o layout para uma versão mobile (576px).
 
 Embora tenha faltado algumas funcionalidades como menu "hambúrguer" para esconder a navbar, como um teste de estrutura geral do layout acredito que tive um resultado até que satisfatório...
 
