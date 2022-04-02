@@ -21,6 +21,10 @@ Recriar uma landpage de acordo com design disponibilizado no Figma:
 - Criação do painel de vagas disponíveis, depoimentos e footer
 - Criação de um media query para telas de smartphone (576px)
 
+### Day 03
+
+- Otimização do layout mobile, ajustando as seções pro tamanho da tela
+
 
 ## Useful resources
 
